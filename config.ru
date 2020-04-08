@@ -1,4 +1,4 @@
 # config.ru (run with rackup)
 require './main'
-run ApplicationMain
+run ApplicationMain.new
 #run Sinatra::Application.run!

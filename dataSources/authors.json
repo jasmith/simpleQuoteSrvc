@@ -1,0 +1,22 @@
+[
+  {
+    "firstName": "Mark",
+    "lastName": "Twain",
+    "author": "Mark Twain"
+  },
+  {
+    "firstName": "Theodore",
+    "lastName": "Roosevelt",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Jefferson",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "firstName": "Albert",
+    "lastName": "Einstein",
+    "author": "Albert Einstein"
+  }
+]
