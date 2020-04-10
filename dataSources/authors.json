@@ -1,20 +1,24 @@
 [
   {
+    "uuid": "e34241a9-1382-43cd-aeea-45df65e3f1c7",
     "firstName": "Mark",
     "lastName": "Twain",
     "author": "Mark Twain"
   },
   {
+    "uuid": "11ed4736-a0f3-4e8c-98b7-81d60253ddba",
     "firstName": "Theodore",
     "lastName": "Roosevelt",
     "author": "Theodore Roosevelt"
   },
   {
+    "uuid": "83861b77-625b-489f-92c3-02c21ae1980e",
     "firstName": "Thomas",
     "lastName": "Jefferson",
     "author": "Thomas Jefferson"
   },
   {
+    "uuid": "b2283ff4-3702-4580-a5b4-ad9fc6a76ab3",
     "firstName": "Albert",
     "lastName": "Einstein",
     "author": "Albert Einstein"
