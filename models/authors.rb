@@ -9,7 +9,6 @@ class Authors
 		@authorInventory=JSON.load File.open("./dataSources/authors.json")
 	end
 
-
 	def random_author(quantity=1)
 		@authorInventory.sample(quantity.to_i)
 	end
