@@ -1,0 +1,27 @@
+
+
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"author": {
+			"type": "string"
+		},
+		"text": {
+			"type": "string"
+		},
+		"uuid": {
+			"type": "string",
+			"format":"uuid"
+		},
+		"author_key": {
+			"type": "string",
+			"format":"uuid"
+		}
+	},
+	"required": [
+		"author",
+		"text",
+		"title"
+	]	
+}

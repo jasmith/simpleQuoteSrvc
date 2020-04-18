@@ -14,7 +14,7 @@ class Authors
 	end
 
 	def inventory
-		@authorInventory.to_json  
+		@authorInventory
 	end
 
 	def find(uuid)
@@ -22,13 +22,17 @@ class Authors
 	end
 
 	def find_all()
-		@authorInventory.to_json  
+		@authorInventory  
 	end
 
-	def quotes(uuid)
+	def quotes(uuid) #extended to include text - orginally wanted to return just the uuid
 		author=find(uuid)
-		author["quotes"]=Quotes.new.find_by_author(uuid).collect{|item|  {"uuid" => item["uuid"]} }
+		author["quotes"]=Quotes.new.find_by_author(uuid).collect{|item|  {"uuid" => item["uuid"],"text"=>item["text"]} }
 		author
+	end
+
+	def randomQuote(uuid)
+		quotes(uuid)["quotes"].sample(1)
 	end
 
 end

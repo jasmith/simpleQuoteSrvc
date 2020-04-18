@@ -2,10 +2,19 @@ require 'rubygems'
 require 'sinatra'
 require './models/quotes'
 require './models/authors'
+
+
 class ApplicationMain < Sinatra::Base
 
 
 	helpers do
+
+		def authorized?(params)
+			#p "------#{params[:api_key]}"
+			authorized = params[:api_key]=='123456' ? true : false
+			#p "------------------------#{authorized}"
+		end
+
 		def sayHello()
 			p "hello there"
 		end
@@ -16,13 +25,16 @@ class ApplicationMain < Sinatra::Base
 	before do
 		@quotes=Quotes.new
 		@authors=Authors.new
+		authorized?(params)
 	end
 
 	get '/' do
-		message = "welcome to simple quote service"
-		message << "<h2> Do or Do Not...There is no Try</h2>"
-		message << "Need to do something more with this"
+		message = "Simple Quote Service"
 		return message
+	end
+
+	post '/user/register' do
+
 	end
 
 
@@ -42,6 +54,10 @@ class ApplicationMain < Sinatra::Base
 	get '/author/:uuid/quotes' do #get all quotes for an author
 		#does this suggest a "random" peer class to quote and author
 		@authors.quotes(params[:uuid]).to_json
+	end
+
+	get '/author/:uuid/quote' do 
+		@authors.randomQuote(params[:uuid]).to_json
 	end
 
 

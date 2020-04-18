@@ -1,0 +1,183 @@
+{
+  "version": "3.9.1",
+  "examples": [
+    {
+      "id": "./spec/app_spec.rb[1:3]",
+      "description": "says welcome to the quote service",
+      "full_description": "ApplicationMain says welcome to the quote service",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 63,
+      "run_time": 0.0001143,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:4]",
+      "description": "allows users to fecth a random quote",
+      "full_description": "ApplicationMain allows users to fecth a random quote",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 72,
+      "run_time": 0.0000447,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:5]",
+      "description": "allows users to fecth a random author",
+      "full_description": "ApplicationMain allows users to fecth a random author",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 76,
+      "run_time": 0.0000419,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:6]",
+      "description": "allows users to fecth a random quote from a target author",
+      "full_description": "ApplicationMain allows users to fecth a random quote from a target author",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 80,
+      "run_time": 0.0000413,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:7]",
+      "description": "allows users to fecth a specific quote",
+      "full_description": "ApplicationMain allows users to fecth a specific quote",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 84,
+      "run_time": 0.0000629,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:8]",
+      "description": "allows users to fetch a random quote",
+      "full_description": "ApplicationMain allows users to fetch a random quote",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 88,
+      "run_time": 0.0000407,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:9]",
+      "description": "allows users new to register",
+      "full_description": "ApplicationMain allows users new to register",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 92,
+      "run_time": 0.0000402,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:10]",
+      "description": "mails quote service api_key to the user",
+      "full_description": "ApplicationMain mails quote service api_key to the user",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 96,
+      "run_time": 0.0000398,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:11]",
+      "description": "allows register users to cancel their api_key",
+      "full_description": "ApplicationMain allows register users to cancel their api_key",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 100,
+      "run_time": 0.0000401,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:1:1]",
+      "description": "GET /random/quote returns a status 200 OK 'route exists' ",
+      "full_description": "ApplicationMain service call GET /random/quote returns a status 200 OK 'route exists' ",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 18,
+      "run_time": 0.0263303,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:1:2]",
+      "description": "GET /random/quote returns a single quote object",
+      "full_description": "ApplicationMain service call GET /random/quote returns a single quote object",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 23,
+      "run_time": 0.0065723,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:1:3]",
+      "description": "GET /random/quote returns a multiple quote objects",
+      "full_description": "ApplicationMain service call GET /random/quote returns a multiple quote objects",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 28,
+      "run_time": 0.0030836,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:1:4]",
+      "description": "GET /random/quote returns zero quote objects",
+      "full_description": "ApplicationMain service call GET /random/quote returns zero quote objects",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 33,
+      "run_time": 0.0036648,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:2:1]",
+      "description": "GET /random/author returns a status 200 OK 'route exists' ",
+      "full_description": "ApplicationMain service call GET /random/author returns a status 200 OK 'route exists' ",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 41,
+      "run_time": 0.0028111,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:2:2]",
+      "description": "GET /random/quote returns a single quote object",
+      "full_description": "ApplicationMain service call GET /random/quote returns a single quote object",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 46,
+      "run_time": 0.0035123,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:2:3]",
+      "description": "GET /random/quote returns a multiple quote objects",
+      "full_description": "ApplicationMain service call GET /random/quote returns a multiple quote objects",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 51,
+      "run_time": 0.0036246,
+      "pending_message": null
+    },
+    {
+      "id": "./spec/app_spec.rb[1:2:4]",
+      "description": "GET /random/quote returns zero quote objects",
+      "full_description": "ApplicationMain service call GET /random/quote returns zero quote objects",
+      "status": "passed",
+      "file_path": "./spec/app_spec.rb",
+      "line_number": 56,
+      "run_time": 0.0029063,
+      "pending_message": null
+    }
+  ],
+  "summary": {
+    "duration": 0.0548611,
+    "example_count": 17,
+    "failure_count": 0,
+    "pending_count": 0,
+    "errors_outside_of_examples_count": 0
+  },
+  "summary_line": "17 examples, 0 failures"
+}

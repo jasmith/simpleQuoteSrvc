@@ -1,62 +1,50 @@
 [
   {
-    "uuid": "7735350f-3623-4590-aa77-bd2adc0efae3",
+    "uuid": "0b8532a8-d480-492f-a179-6db038512fcb",
     "firstName": "Mark",
     "lastName": "Twain",
     "author": "Mark Twain"
   },
   {
-    "uuid": "6587e362-0ac3-4ee6-b37f-bbe2b2adead9",
+    "uuid": "710d14ad-74ca-439e-90e3-a49702782e8b",
     "firstName": "Theodore",
     "lastName": "Roosevelt",
     "author": "Theodore Roosevelt"
   },
   {
-    "uuid": "d2aa7252-1335-4304-91ae-001f79dc944a",
+    "uuid": "8b18e177-440e-4630-a869-ca47afd3b19f",
     "firstName": "Thomas",
     "lastName": "Jefferson",
     "author": "Thomas Jefferson"
   },
   {
-    "uuid": "0fa55629-84c1-46b6-900b-81e573d249ff",
+    "uuid": "1793956c-f2a3-4a42-8aed-a7ee311aaa29",
     "firstName": "Albert",
     "lastName": "Einstein",
     "author": "Albert Einstein"
   },
   {
-    "uuid": "bc0e039e-ccdb-4baf-8828-a863e9c54f43",
+    "uuid": "6cccf2ac-5e04-4e84-bb7b-c346210227e2",
     "firstName": "Bruce",
     "lastName": "Lee",
     "author": "Bruce Lee"
   },
   {
-    "uuid": "1eb2f39b-f8f1-423b-8ec9-687316b33ab7",
+    "uuid": "9e187e03-4f20-411b-ac10-b6aa857be314",
     "firstName": "Buhda",
     "lastName": null,
     "author": "Buhda"
   },
   {
-    "uuid": "d92499d2-8d83-4f6e-944b-0c9c97e21a11",
+    "uuid": "f3020f67-c333-4c93-bbce-d4159f68edac",
     "firstName": "Pablo",
     "lastName": "Picaso",
     "author": "Pablo Picaso"
   },
   {
-    "uuid": "6b110ccd-724f-4907-a265-2eb5bb2b3f6e",
+    "uuid": "0ac63527-0122-44d0-9c59-9b6ce567def7",
     "firstName": "Seneca",
     "lastName": null,
     "author": "Seneca"
-  },
-  {
-    "uuid": "984c93d5-5d85-4549-95c6-4d065e986a94",
-    "firstName": "Anthony",
-    "lastName": "Bourdain",
-    "author": "Anthony Bourdain"
-  },
-  {
-    "uuid": "cb19e86b-8599-4a1b-bbbd-8be545da2e7d",
-    "firstName": "Tim",
-    "lastName": "Ferris",
-    "author": "Tim Ferris"
   }
 ]
